@@ -1,0 +1,74 @@
+@charset "UTF-8";
+* {
+    color: #fff;
+    font-family: 'Roboto', sans-serif;
+}
+
+body {
+    background-image: url(../images/lake.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100vh;
+}
+
+header.header-container {
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-end;
+    padding-top: 20px;
+}
+
+h1 {
+    margin: 0;
+    line-height: 0.7;
+    letter-spacing: 0.2em;
+    font-weight: 500;
+}
+
+a {
+    text-decoration: none;
+}
+
+.top {
+    position: relative;
+    width: 100vw;
+    height: 100vh;
+}
+
+nav.menu-navigation {
+    height: 48px;
+    font-weight: 300;
+    letter-spacing: 0.1em;
+    display: flex;
+    align-items: flex-end;
+}
+
+.menu-navigation ul {
+    list-style: none;
+    display: flex;
+    margin-bottom: 0;
+}
+
+.menu-navigation li {
+    margin-left: 40px;
+}
+
+.menu-navigation li:first-child {
+    margin-left: 0;
+}
+
+.slogan {
+    font-family: 'Shippori Mincho', serif;
+    font-size: 64px;
+    position: absolute;
+    top: 30%;
+    left: 53%;
+}
+
+.under-nav {
+    width: 3%;
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    transform: translateX(-50%);
+}
